@@ -36,8 +36,6 @@ test1.addEventListener("input", (e) => {
     return false;
   }
   if (e.inputType == "deleteContentBackward") {
-    console.log(
-      `${type - 2} characters entered | ${remaining + 2} characters remaining`
-    );
+    console.log(`${type--}`);
   }
 });
