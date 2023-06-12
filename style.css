@@ -1,0 +1,79 @@
+/* .qcc {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/0748/3709/8782/files/flower-gdd8a8b05d_1920_2.png?v=1682433218"),
+    url("https://cdn.shopify.com/s/files/1/0748/3709/8782/files/flower-gdd8a8b05d_1920_1.png?v=1682433218");
+  background-size: contain;
+  background-position: left, right;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.logos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  width: 500px;
+  height: 500px;
+}
+
+.logos:nth-child(2) {
+  transition-delay: 200ms;
+}
+.logos:nth-child(3) {
+  transition-delay: 400ms;
+  position: relative;
+}
+
+.logos:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+@media (max-width: 1547px) {
+  .logos img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 1097px) {
+  .logos img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 1037px) {
+  .logos img {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 795px) {
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logos img {
+    height: 250px;
+    width: 250px;
+  }
+} */
