@@ -6,23 +6,9 @@
 // test1.addEventListener("input", (e) => {
 //   let remaining = maxLetter - type;
 
-//   if (e.inputType) {
-//     type++;
-//     console.log(
-//       `${type} characters entered | ${remaining} characters remaining`
-//     );
-//   }
-//   if (e.inputType == "deleteContentBackward") {
-//     erase++;
-//     console.log(
-//       `${type - 1} characters entered | ${remaining} characters remaining`
-//     );
-//   }
-// });
-
 const test1 = document.getElementById("test");
 let type = 0;
-let maxLetter = 139;
+let maxLetter = 159;
 
 test1.addEventListener("input", (e) => {
   let remaining = maxLetter - type;
@@ -36,6 +22,8 @@ test1.addEventListener("input", (e) => {
     return false;
   }
   if (e.inputType == "deleteContentBackward") {
-    console.log(`${type--}`);
+    console.log(
+      `${type} characters entered | ${remaining} characters remaining`
+    );
   }
 });
